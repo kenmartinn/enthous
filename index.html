@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    
+    <title>Enthous</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div id="home" class="header__bar"></div>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <img class="nav-logo" src="logo/enthous.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <a class="nav-link" href="#home">HOME</a>
+            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link" href="#tee">ALL ITEM</a>
+            <a class="nav-link" href="#news">BLOGS</a>
+            <i class="cart bi-cart" href="#"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+      <!-- FEATURE POST -->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="header/city-landscape.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="header/Tokyo-Auto-Salon-Car-Meet-Cruise-Toyotas-01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="header/IMG_0871.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- sale -->
+    <section class="section__container sale__container">
+      <h2 class="section__title">On Sale</h2>
+      <div class="sale__grid">
+        <div class="sale__card">
+          <img src="sales/Untitled-3.png" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">TEE</p>
+            <h4 class="sale__title">sale <span>40%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="sale__card">
+          <img src="sales/4.png" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">TEE</p>
+            <h4 class="sale__title">sale <span>25%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="sale__card">
+          <img src="sales/5.png" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">HOODIE</p>
+            <h4 class="sale__title">sale <span>20%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- all prducts -->
+
+    <section id= "tee" class="section__container musthave__container">
+      <h2 class="section__title">All Items</h2>
+      <div class="musthave__nav">
+        <a href="#">Tee</a>
+        <a href="#">Hoodie</a>
+        <a href="#">Accesories</a>
+      </div>
+      <!--box 1-->
+      <div class="musthave__grid">
+        <div class="musthave__card">
+          <img src="products/hoodie front.png" alt="must have" />
+          <h4>Enthous Hoodie</h4>
+          <p>₱2,000</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+      <!--box 2-->
+        <div class="musthave__card">
+          <img src="products/f1 back.png" alt="must have" />
+          <h4>F1</h4>
+          <p><del>₱999</del> ₱749.25</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+      <!--box 3-->
+        <div class="musthave__card">
+          <img src="products/VINTAGETEE1.png" alt="must have" />
+          <h4>Vintage Tee</h4>
+          <p>₱1,200</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+      
+      <!--box 4-->
+        <div class="musthave__card">
+          <img src="products/kozy garage.png" alt="must have" />
+          <h4> Kozy Garage</h4>
+          <p><del>₱999</del>₱599</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+      
+      <!--box 5-->
+        <div class="musthave__card">
+          <img src="products/double pocket.png" alt="must have" />
+          <h4>Double Pocket Shirt</h4>
+          <p>₱1,599</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+      <!--box 6-->
+        <div class="musthave__card">
+          <img src="products/violet.png" alt="must have" />
+          <h4>Enthous Studio</h4>
+          <p>₱2,999</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+      <!--box 7-->
+        <div class="musthave__card">
+          <img src="products/bag.png" alt="must have" />
+          <h4>Messenger Bag</h4>
+          <p>₱1,499</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+      <!--box 8-->
+        <div class="musthave__card">
+          <img src="products/eye.png" alt="must have" />
+          <h4>Sight Hoodie</h4>
+          <p>₱999</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+      <!--box 9-->
+        <div class="musthave__card">
+          <img src="products/ef.png" alt="must have" />
+          <h4>Civic Ef</h4>
+          <p>₱999</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+      <!--box 10-->
+        <div class="musthave__card">
+          <img src="products/tshirt eye.png" alt="must have" />
+          <h4>Enthous Tee</h4>
+          <p>₱999</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+       <!--box 11--> 
+        <div class="musthave__card">
+          <img src="products/enthous.png" alt="must have" />
+          <h4>Neon sweatshirt</h4>
+          <p>₱999</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+
+       <!--box 12--> 
+        <div class="musthave__card">
+          <img src="products/racing team.png" alt="must have" />
+          <h4>Racing Tee</h4>
+          <p>₱999</p>
+          <button class="btn addtocart__btn">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs -->
+
+    <section class="news">
+      <div id="news" class="section__container news__container">
+        <h2 class="section__title">BLOGS</h2>
+        <div class="news__grid">
+          <div class="news__card">
+            <img src="/civic ef.png" alt="news" />
+            <div class="news__details">
+              <p>
+                ENTHOUS <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>Honda Civic</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> Aug 10, 2023
+              </p>
+              <h4>Car Blog</h4>
+              <hr />
+              <p>
+                The fourth-generation Honda Civic is a Japanese sub-compact 
+                automobile. It was produced by Honda from 1987 until 1991 with 
+                the wagon continuing in production in some markets until 1996. 
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+          <div class="news__card">
+            <img src="Lancer evo 9 mr.png" alt="news" />
+            <div class="news__details">
+              <p>
+                ENTHOUS <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>Lancer Evo 9</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> APR 29, 2023
+              </p>
+              <h4>Car Blog</h4>
+              <hr />
+              <p>
+                The fourth-generation Honda Civic is a Japanese sub-compact 
+                automobile. It was produced by Honda from 1987 until 1991 with 
+                the wagon continuing in production in some markets until 1996. 
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+          <div class="news__card">
+            <img src="header/porch.png" alt="news" />
+            <div class="news__details">
+              <p>
+                ENTHOUS <i class="ri-checkbox-blank-circle-fill"></i>
+                <span>Porche</span>
+                <i class="ri-checkbox-blank-circle-fill"></i> JUL 22, 2019
+              </p>
+              <h4>Car Blog</h4>
+              <hr />
+              <p>
+                The Porsche 911 (pronounced Nine Eleven or in German: Neunelf) 
+                is a two-door 2+2 high performance rear-engined sports car introduced 
+                in September 1964 by Porsche AG of Stuttgart, Germany. It has a rear-mounted 
+                flat-six engine and originally a torsion bar suspension. The car has been continuously enhanced 
+                through the years but the basic concept has remained unchanged.
+              </p>
+              <a href="#"><i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- brand -->
+
+    <section class="section__container brands__container">
+      <div class="brand__image">
+        <img src="/logo/enthous.png" alt="brand" />
+      </div>
+     
+    </section>
+
+    <hr />
+
+    <footer id="about" class="section__container footer__container">
+      <div class="footer__col">
+        <h4 class="footer__heading">CONTACT INFO</h4>
+        <p>
+          <i class="ri-map-pin-2-fill"></i> Cabuyao, Laguna
+        </p>
+        <p><i class="ri-mail-fill"></i> support@enthous.com</p>
+        <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">COMPANY</h4>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Work With Us</p>
+        <p>Our Blog</p>
+        <p>Terms & Conditions</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">USEFUL LINK</h4>
+        <p>Help</p>
+        <p>Track My Order</p>
+        <p>Hoodie</p>
+        <p>Tee</p>
+        <p>Accesories</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">INSTAGRAM</h4>
+        <div class="instagram__grid">
+          <img src="assets/instagram-1.jpg" alt="instagram" />
+          <img src="assets/instagram-2.jpg" alt="instagram" />
+          <img src="assets/instagram-3.jpg" alt="instagram" />
+          <img src="assets/instagram-4.jpg" alt="instagram" />
+          <img src="assets/instagram-5.jpg" alt="instagram" />
+          <img src="assets/instagram-6.jpg" alt="instagram" />
+        </div>
+      </div>
+    </footer>
+
+    <hr />
+
+    <div class="section__container footer__bar">
+      <div class="copyright">
+        Copyright © 2024  All rights reserved.
+      </div>
+      <div class="footer__form">
+        <form>
+          <input type="text" placeholder="ENTER YOUR EMAIL" />
+          <button class="btn" type="submit">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="addtocart.js"></script>
+  </body>
+</html>
